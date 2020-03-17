@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/back_main"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Masjid"
+            android:textSize="40sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#fff"/>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Jadwal"
+                android:id="@+id/gotoJadwal"
+                android:layout_weight="1"
+                android:background="@drawable/btn_main"
+                android:layout_marginRight="5dp"
+                android:textColor="#fff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Identitas"
+                android:id="@+id/gotoIdentitas"
+                android:layout_weight="1"
+                android:background="@drawable/btn_main"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Pengumuman"
+                android:id="@+id/gotoPengumuman"
+                android:layout_weight="1"
+                android:background="@drawable/btn_main"
+                android:layout_marginRight="5dp"
+                android:textColor="#fff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Slideshow"
+                android:id="@+id/gotoSlideshow"
+                android:layout_weight="1"
+                android:background="@drawable/btn_main"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Marquee"
+                android:id="@+id/gotoMarquee"
+                android:layout_weight="1"
+                android:background="@drawable/btn_main"
+                android:layout_marginRight="5dp"
+                android:textColor="#fff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Tagline"
+                android:id="@+id/gotoTagline"
+                android:layout_weight="1"
+                android:background="@drawable/btn_main"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Exit"
+            android:id="@+id/goExit"
+            android:textColor="#fff"
+            android:background="@drawable/btn_exit"/>
+    </LinearLayout>
+</LinearLayout>
